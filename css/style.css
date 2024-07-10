@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: tomato;
+}
+
+.container {
+    text-align: center;
+}
+
+.level-select {
+    margin-bottom: 20px;
+}
+
+.level-select button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+
+    
+}
+
+.board {
+    display: grid;
+    gap: 75px;
+    margin: 20px 0;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: #ff234f;
+    border: 2px solid #eef107;
+}
+
+.cell.player {
+    background-color: rgb(0, 0, 255);
+}
+
+.cell.toggle {
+    background-color: rgb(255, 0, 0);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all linear.3s;
+}
+button:hover{
+background: yellow;
+}
